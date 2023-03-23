@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "NeueBold";
+    src: url("./fonts/NM-Ultra.otf");
+}
+
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.preloader {
+    font-family: "NeueBold";
+    background-image: url("./assets/BLACK\ PATTERN\ 01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    margin: auto;
+
+}
+
+.blue-smiley {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+}
